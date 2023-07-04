@@ -21,6 +21,7 @@ const Card = () => {
                 ))}
               </ul>
           </div>
+          
           <div className="neighbourList">
               <h4>Neighbouring Countries:</h4>
               <ul>
