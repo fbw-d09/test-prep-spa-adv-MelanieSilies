@@ -1,0 +1,24 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.Header {
+  height: 20vh;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  height: 70vh;
+}
+
+.Footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
