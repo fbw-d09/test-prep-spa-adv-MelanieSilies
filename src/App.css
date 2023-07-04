@@ -3,16 +3,72 @@
   width: 100vw;
 }
 
+.darkMode {
+  background-color: black;
+  color: white;  
+}
+
+.lightMode {
+  background-color: white;
+  color: black;
+}
+
+.button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 200px;
+  float: right;
+  border: 0.2rem solid rgb(135, 135, 135);
+  z-index: 5; 
+  position: absolute;
+  top: 20vh;
+  right: 0;
+}
+
 .Header {
   height: 20vh;
   background-color: lightgray;
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .Card {
   height: 70vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+.Card img {
+  height: 5rem;
+  width: 7.4rem;
+  object-fit: contain;
+  border: 0.1rem solid lightgray;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.neighbourList{
+  padding: 1rem;
+}
+
+.languageList{
+ border-right: 1px solid lightgray;
+ padding: 1rem;
+}
+
+li {
+  list-style-type: none;
 }
 
 .Footer {
